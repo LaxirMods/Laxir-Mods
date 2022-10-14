@@ -67,7 +67,7 @@ global.ppulsa2 = '-' // kalau ada kartu lain isi aja
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '625752271870'
+global.nomorbot = '6285752271870'
 global.nomorown = '6285332039348'
 global.namebot = 'LaxirBotz'
 global.nameown = 'Drixx'
