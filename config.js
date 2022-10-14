@@ -69,8 +69,8 @@ global.psaweria = '-'
 /*============== NOMOR ==============*/
 global.nomorbot = '625752271870'
 global.nomorown = '6285332039348'
-global.namebot = 'Drix'
-global.nameown = 'Drix0ne'
+global.namebot = 'LaxirBotz'
+global.nameown = 'Drixx'
 
 /*============== Github Thanks To ==============*/
 global.namagithub = '-' // nama github lu
@@ -85,7 +85,7 @@ global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285332039348', 'DrixOne', true],
+  ['6285332039348', 'Drixx', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
