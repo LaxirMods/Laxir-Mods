@@ -27,8 +27,6 @@ if (command == 'whmods3') {
     
         }]
     }, MessageType.contactsArray, { quoted: m })
- const tag_own = await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, { quoted: fakes })
- let caption = `👋 Hai *${name} @${who.split("@")[0]}*, Nih Owner *${conn.user.name}* kak`
 }
 }
 handler.help = ['whmods1', 'whmods2', 'whmods3']
