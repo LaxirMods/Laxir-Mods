@@ -50,7 +50,7 @@ let wibh = moment.tz('Asia/Makassar').format('HH')
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 
 global.sig = 'https://instagram.com/drizasri' // ig
-global.sgh = '-' // github
+global.sgh = 'https://github.com/LaxirMods' // github
 global.sgc = '-' // group whatsapp
 global.sdc = '-'//discord
 global.snh = '-' // my youtube channel
@@ -58,9 +58,9 @@ global.sfb = '-' // facebook
 global.syt = '-' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = '-' //dana
+global.pdana = '085332039348' //dana
 global.povo = '-' //ovo
-global.pgopay = '-' //gopay
+global.pgopay = '085332039348' //gopay
 global.plinkaja = '-' //link aja
 global.ppulsa = '085752271870' //telkomsel
 global.ppulsa2 = '-' // kalau ada kartu lain isi aja
