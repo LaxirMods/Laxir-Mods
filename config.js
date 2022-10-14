@@ -73,8 +73,8 @@ global.namebot = 'LaxirBotz'
 global.nameown = 'Drixx'
 
 /*============== Github Thanks To ==============*/
-global.namagithub = '-' // nama github lu
-global.linkgithub = '-' // tarok link github lu
+global.namagithub = 'LaxirMods' // nama github lu
+global.linkgithub = 'https://github.com/LaxirMods' // tarok link github lu
 
 // klau kgk ada github kasih tanda '-' aja biar kgk error
 
