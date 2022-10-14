@@ -19,16 +19,15 @@ if (command == 'whmods3') {
     await conn.sendMessage(m.chat, {
         contacts: [{
         "displayName": "${name}",
-          "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${name}\nORG:🤖 Bot WhatsApp\nitem1.TEL;waid=${nomorbot}\nitem1.X-ABLabel:📍 Creator\nitem2.EMAIL;type=INTERNET:Nothing\nitem2.X-ABLabel:💌 Email\nitem3.URL:https://github.com/LaxirMods\nitem3.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:laxirmods@gmail.com\nitem3.X-ABLabel:💌 Mail Owner LaxirMods\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🤖 Hanya bot biasa yang kada suka eror\nEND:VCARD"
+          "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nORG:🤖 Bot WhatsApp\nitem1.TEL;waid=${nomorbot}\nitem1.X-ABLabel:📍 Creator\nitem2.EMAIL;type=INTERNET:Nothing\nitem2.X-ABLabel:💌 Email\nitem3.URL:https://github.com/LaxirMods\nitem3.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:laxirmods@gmail.com\nitem3.X-ABLabel:💌 Mail Owner LaxirMods\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🤖 Hanya bot biasa yang kada suka eror\nEND:VCARD"
       }, {
       "displayName": "${name}",
-          "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:B${name}\nORG:👑 Devolover  Bot\nitem1.TEL;waid=${nomorown}\nitem1.X-ABLabel:📍 Creator\nitem2.EMAIL;type=INTERNET:;LaxirMods@gmail.com\nitem2.X-ABLabel:💌 Email\nitem3.URL:https://youtube.com/channel/UC4KkbFZ15ILdDhLJeytnFDw\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:laxirmods@gmail.com\nitem3.X-ABLabel:💌 Mail Owner LaxirMods\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:📝 Jika Tidak Ada bahu Untuk Bersandar Masih Ada Lantai Untuk Bersujud\nEND:VCARD`"
+          "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Owner;;;\nORG:👑 Devolover  Bot\nitem1.TEL;waid=${nomorown}\nitem1.X-ABLabel:📍 Creator\nitem2.EMAIL;type=INTERNET:;LaxirMods@gmail.com\nitem2.X-ABLabel:💌 Email\nitem3.URL:https://youtube.com/channel/UC4KkbFZ15ILdDhLJeytnFDw\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:laxirmods@gmail.com\nitem3.X-ABLabel:💌 Mail Owner LaxirMods\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:📝 Jika Tidak Ada bahu Untuk Bersandar Masih Ada Lantai Untuk Bersujud\nEND:VCARD`"
       }, {
     
         }]
     }, MessageType.contactsArray, { quoted: m })
-    const tag_own = await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, { quoted: fakes })
-let caption = `👋 Hai *${name} @${who.split("@")[0]}*, Itu nomor ownnerku, jangan dispam ya kak😊`
+ let caption = `👋 Hai *${name} @${who.split("@")[0]}*, Nih Owner *${conn.user.name}* kak`
 }
 }
 handler.help = ['whmods1', 'whmods2', 'whmods3']
